@@ -7,4 +7,5 @@ class CustomerComment(models.Model):
     message = models.TextField(help_text='Enter customer comment: ', max_length=3000)
 
     def __str__(self):
-        return  f"{self.author} <___________> {self.message[0:40]}"
+        return  self.author
+
