@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scrollbar {
+    -ms-overflow-style: none; /* مخفی‌کردن در IE و Edge */
+    scrollbar-width: none;   /* مخفی‌کردن در Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* مخفی‌کردن در Chrome، Safari و غیره */
+  }
+  
