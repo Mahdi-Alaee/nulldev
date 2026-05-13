@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProjectCard = ({ img, title, slug ,desc , tag}) => {
     return (  
-        <Link href={slug} class="w-full rounded-xl overflow-hidden shadow-lg">
+        <Link href={slug} class="w-full rounded-xl overflow-hidden shadow-lg border border-black/15">
             <img class="w-full" src={img} alt={title} />
             <div class="py-4 px-4">
                 <div class="font-semibold text-xl mb-2">{title}</div>

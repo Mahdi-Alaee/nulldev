@@ -8,7 +8,7 @@ const Blogs = () => {
     const [blogs, setBlogs] = useState([
         {
           "id": "1",
-          "img": "https://png.pngtree.com/thumb_back/fw800/background/20240610/pngtree-computer-of-a-programmer-with-lines-code-of-software-image_15746003.jpg",
+          "img": "",
           "date": "10th Oct 2022",
           "slug": "test",
           "title": "طراحی سایت خدماتی چه مزایایی دارد؟",
@@ -17,7 +17,7 @@ const Blogs = () => {
         },
         {
           "id": "2",
-          "img": "https://png.pngtree.com/thumb_back/fw800/background/20240610/pngtree-computer-of-a-programmer-with-lines-code-of-software-image_15746003.jpg",
+          "img": "",
           "date": "10th Oct 2022",
           "slug": "test",
           "title": "طراحی سایت خدماتی چه مزایایی دارد؟",
